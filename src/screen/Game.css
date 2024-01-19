@@ -1,0 +1,42 @@
+.Game-home {
+  text-align: center;
+}
+
+.Game-home-center {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.Game-to-home {
+  text-decoration: none;
+  color: white;
+}
+
+.User-value {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  height: auto;
+}
+
+.User-value p {
+  margin-right: 10px;
+}
+
+.User-value input {
+  margin: 0px 20px;
+  max-width: 140px;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.User-value button {
+  margin-left: 5px;
+}
